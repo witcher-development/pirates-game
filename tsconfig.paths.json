@@ -4,7 +4,9 @@
     "paths": {
       "@router": ["./router"],
       "@env": ["./env.ts"],
-      "@common/*": ["./features/common/*"]
+      "@common/*": ["./features/common/*"],
+      "@game": ["./features/game/index.ts"],
+      "@game/*": ["./features/game/*"]
     }
   }
 }
